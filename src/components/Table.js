@@ -36,6 +36,15 @@ const TableBody = (props) => {
 const Table = (props) => {
   {
     /*TODO - return <table> component, TableHeader and TableBody  and pass props!*/
+    
+      return(
+        <div>
+          {TableHeader()}
+          {TableBody(props)}
+          
+        </div>
+      )
+
   }
 }
 
